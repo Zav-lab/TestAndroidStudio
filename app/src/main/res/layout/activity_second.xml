@@ -4,23 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg"
-    android:backgroundTint="#D5D1D1"
-    tools:context=".MainActivity">
+    tools:context=".SecondActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="256dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="355dp"
-        android:onClick="startNewActivity"
-        android:text="Перейти на новую страницу"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="298dp"
+        android:layout_marginEnd="169dp"
+        android:layout_marginBottom="313dp"
+        android:onClick="goBack"
+        android:text="Назад"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
